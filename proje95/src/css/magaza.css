@@ -1,0 +1,91 @@
+
+.action-text {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* Ana konteyner */
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%; /* İç boşluklar */
+    gap: 50px; /* Elemanlar arasındaki boşluk */
+}
+
+/* Görselin ters çevrilmiş hali için */
+.section-container.reverse-layout {
+    flex-direction: row-reverse;
+}
+
+/* Görsel alanı */
+.section-image {
+    flex: 1; /* Esnekliği ayarlar */
+}
+
+.section-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Metin alanı */
+.section-content {
+    flex: 1;
+    text-align: left;
+}
+
+.section-content .subtitle {
+    font-size: 14px;
+    font-weight: bold;
+    color: #888;
+    letter-spacing: 2px;
+}
+
+.section-content .title {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0 20px;
+}
+
+/* Menü bölümündeki görsel grubu */
+.section-images-group {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+}
+
+.section-images-group img {
+    width: calc(50% - 10px); /* 2 görsel ve aralarındaki boşluk */
+    height: auto;
+    object-fit: cover;
+}
+
+/* Medya sorguları (Responsive tasarım için) */
+@media (max-width: 768px) {
+    .section-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 5%;
+    }
+
+    .section-container.reverse-layout {
+        flex-direction: column;
+    }
+    
+    .section-content {
+        margin-top: 20px;
+    }
+
+    .section-images-group {
+        flex-direction: column;
+    }
+
+    .section-images-group img {
+        width: 100%;
+    }
+}

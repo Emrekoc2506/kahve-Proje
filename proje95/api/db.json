@@ -1,0 +1,268 @@
+{
+  "coffee": [
+    {
+      "id": 3,
+      "title": "Tall Latte Macchiato",
+      "description": "Latte Macchiato'nun küçük.",
+      "price": 75,
+      "category": "Caramel Macchiato",
+      "image": "tall_Latte_Macchiato"
+    },
+    {
+      "id": 4,
+      "title": "Grande Latte Macchiato",
+      "description": "Latte Macchiato'nun orta boyu.",
+      "price": 90,
+      "category": "Latte Macchiato",
+      "image": "grande_boy_Latte_Macchiato"
+    },
+    {
+      "id": 5,
+      "title": "Venti Latte Macchiato",
+      "description": "Latte Macchiato'nun büyük boyu.",
+      "price": 105,
+      "category": "Latte Macchiato",
+      "image": "venti_Latte_Macchiato"
+    },
+    {
+      "id": 6,
+      "title": "Tall Caramel Macchiato",
+      "description": "Caramel Macchiato'nun küçük boyu.",
+      "price": 75,
+      "category": "Caramel Macchiato",
+      "image": "tall_Caramel_Macchiato"
+    },
+    {
+      "id": 7,
+      "title": "Grande Caramel Macchiato",
+      "description": "Caramel Macchiato'nun orta boyu.",
+      "price": 90,
+      "category": "Caramel Macchiato",
+      "image": "grande_Caramel_Macchiato"
+    },
+    {
+      "id": 8,
+      "title": "Venti Caramel Macchiato",
+      "description": "Caramel Macchiato'nun büyük boyu.",
+      "price": 105,
+      "category": "Caramel Macchiato",
+      "image": "venti_Caramel_Macchiato"
+    },
+    {
+      "id": 9,
+      "title": "Tall Espresso Macchiato",
+      "description": "Espresso Macchiato'nun küçük boyu.",
+      "price": 60,
+      "category": " Espresso Macchiato",
+      "image": "tall_Espresso_Macchiato"
+    },
+    {
+      "id": 10,
+      "title": "Venti Espresso Macchiato",
+      "description": "Espresso Macchiato'nun büyük boyu.",
+      "price": 70,
+      "category": " Espresso Macchiato",
+      "image": "venti_Espresso_Macchiato"
+    },
+    {
+      "id": 11,
+      "title": "Tall Espresso",
+      "description": "Yoğun ve aromatik küçük boy espresso.",
+      "price": 50,
+      "category": "Espresso",
+      "image": "tall_espresso"
+    },
+    {
+      "id": 12,
+      "title": "Grande Espresso",
+      "description": "Yoğun ve aromatik orta boy espresso.",
+      "price": 60,
+      "category": "Espresso",
+      "image": "grande_espresso"
+    },
+    {
+      "id": 13,
+      "title": "Venti Espresso",
+      "description": "Yoğun ve aromatik büyük boy espresso.",
+      "price": 70,
+      "category": "Espresso",
+      "image": "venti_espresso"
+    },
+    {
+      "id": 14,
+      "title": "Tall Espresso con Panna",
+      "description": "Espresso ve krem şanti kombinasyonu.",
+      "price": 65,
+      "category": "Espresso con Panna",
+      "image": "tall_Espresso_con_Panna"
+    },
+    {
+      "id": 15,
+      "title": "Grande Espresso con Panna",
+      "description": "Espresso ve krem şanti kombinasyonu.",
+      "price": 75,
+      "category": "Espresso con Panna",
+      "image": "grande_Espresso_con_Panna"
+    },
+    {
+      "id": 16,
+      "title": "Venti Espresso con Panna",
+      "description": "Espresso ve krem şanti kombinasyonu.",
+      "price": 85,
+      "category": "Espresso con Panna",
+      "image": "venti_Espresso_con_Panna"
+    },
+    {
+      "id": 17,
+      "title": "Tall Buzlu Americano",
+      "description": "Serinletici buzlu Americano'nun küçük boyu.",
+      "price": 60,
+      "category": "Americano",
+      "image": "tall_buzlu_Americano"
+    },
+    {
+      "id": 18,
+      "title": "Grande Buzlu Americano",
+      "description": "Serinletici buzlu Americano'nun orta boyu.",
+      "price": 70,
+      "category": "Americano",
+      "image": "grande_buzlu_Americano"
+    },
+    {
+      "id": 19,
+      "title": "Venti Buzlu Americano",
+      "description": "Serinletici buzlu Americano'nun büyük boyu.",
+      "price": 80,
+      "category": "Americano",
+      "image": "venti_buzlu_Americano"
+    },
+    {
+      "id": 20,
+      "title": "Tall Americano",
+      "description": "Sıcak ve sade Americano'nun küçük boyu.",
+      "price": 55,
+      "category": "Americano",
+      "image": "tall_Americano"
+    },
+    {
+      "id": 21,
+      "title": "Grande Americano",
+      "description": "Sıcak ve sade Americano'nun orta boyu.",
+      "price": 65,
+      "category": "Americano",
+      "image": "grande_Americano"
+    },
+    {
+      "id": 22,
+      "title": "Venti Americano",
+      "description": "Sıcak ve sade Americano'nun büyük boyu.",
+      "price": 75,
+      "category": "Americano",
+      "image": "venti_Americano"
+    },
+    {
+      "id": 23,
+      "title": "Tall Flat White",
+      "description": "İpeksi dokulu sütün espresso ile buluştuğu Flat White.",
+      "price": 75,
+      "category": "Flat White",
+      "image": "tall_flat_white"
+    },
+    {
+      "id": 24,
+      "title": "Grande Flat White",
+      "description": "İpeksi dokulu sütün espresso ile buluştuğu Flat White.",
+      "price": 90,
+      "category": "Flat White",
+      "image": "grande_flat_white"
+    },
+    {
+      "id": 25,
+      "title": "Venti Flat White",
+      "description": "İpeksi dokulu sütün espresso ile buluştuğu Flat White.",
+      "price": 105,
+      "category": "Flat White",
+      "image": "venti_flat_white"
+    },
+    {
+      "id": 26,
+      "title": "Tall Ristretto Bianco",
+      "description": "Kısa çekim espresso ve süt ile hazırlanan özel lezzet.",
+      "price": 80,
+      "category": "Ristretto",
+      "image": "tall_Ristretto_Bianco"
+    },
+    {
+      "id": 27,
+      "title": "Grande Ristretto Bianco",
+      "description": "Kısa çekim espresso ve süt ile hazırlanan özel lezzet.",
+      "price": 95,
+      "category": "Ristretto",
+      "image": "grande_Ristretto_Bianco"
+    },
+    {
+      "id": 28,
+      "title": "Venti Ristretto Bianco",
+      "description": "Kısa çekim espresso ve süt ile hazırlanan özel lezzet.",
+      "price": 110,
+      "category": "Ristretto",
+      "image": "venti_Ristretto_Bianco"
+    },
+    {
+      "id": 29,
+      "title": "Tall Buzlu Caffe Latte",
+      "description": "Serinletici buzlu caffe latte'nin küçük boyu.",
+      "price": 70,
+      "category": "Caffe Latte",
+      "image": "tall_buzlu_caffe_latte"
+    },
+    {
+      "id": 30,
+      "title": "Grande Buzlu Caffe Latte",
+      "description": "Serinletici buzlu caffe latte'nin orta boyu.",
+      "price": 85,
+      "category": "Caffe Latte",
+      "image": "grande_buzlu_caffe_latte"
+    },
+    {
+      "id": 31,
+      "title": "Venti Buzlu Caffe Latte",
+      "description": "Serinletici buzlu caffe latte'nin büyük boyu.",
+      "price": 100,
+      "category": "Caffe Latte",
+      "image": "venti_buzlu_caffe_latte"
+    },
+    {
+      "id": 32,
+      "title": "Tall Caffe Latte",
+      "description": "Sıcak ve sütlü caffe latte'nin küçük boyu.",
+      "price": 65,
+      "category": "Caffe Latte",
+      "image": "tall_caffe_latte"
+    },
+    {
+      "id": 33,
+      "title": "Grande Caffe Latte",
+      "description": "Sıcak ve sütlü caffe latte'nin orta boyu.",
+      "price": 80,
+      "category": "Caffe Latte",
+      "image": "grande_caffe_latte"
+    },
+    {
+      "id": 34,
+      "title": "Venti Caffe Latte",
+      "description": "Sıcak ve sütlü caffe latte'nin büyük boyu.",
+      "price": 95,
+      "category": "Caffe Latte",
+      "image": "venti_caffe_latte"
+    },
+    {
+      "id": 35,
+      "title": "Grande Espresso Macchiato",
+      "description": "Sıcak ve sütlü Espresso Macchiato 'nin orta boyu.",
+      "price": 105,
+      "category": "Espresso Macchiato",
+      "image": "grande_espresso_macchiato"
+    }
+  ]
+}

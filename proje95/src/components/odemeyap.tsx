@@ -1,0 +1,83 @@
+// src/components/odemeyap.tsx
+
+import React from 'react';
+import styled from 'styled-components';
+
+interface Props {
+  onClick?: () => void;
+  children: React.ReactNode;
+}
+
+const odemeyap: React.FC<Props> = ({ onClick, children }) => {
+  return (
+    <StyledWrapper>
+      <button className="payment-button" onClick={onClick}>
+        <span className="label">{children}</span>
+        <span className="price">{children}</span>
+      </button>
+    </StyledWrapper>
+  );
+}
+
+const StyledWrapper = styled.div`
+  .payment-button {
+    --background: #007bff;
+    --text-color: #fff;
+    --hover-background: #0056b3;
+    --hover-text-color: #fff;
+    --border-radius: 4px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    display: inline-block;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0.5em 1.5em;
+    background: var(--background);
+    color: var(--text-color);
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    transition: transform 0.2s ease-in-out, background 0.3s ease-in-out,
+      color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .label {
+    z-index: 1;
+  }
+
+  .price {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out,
+      background 0.3s ease-in-out;
+    color: var(--background);
+    background: var(--text-color);
+    border-radius: var(--border-radius);
+    font-weight: bold;
+    font-size: 20px;
+    overflow: hidden;
+  }
+
+  .payment-button:hover {
+    transform: scale(1.05);
+    background: var(--hover-background);
+    color: var(--hover-text-color);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .payment-button:hover .price {
+    transform: scale(0);
+  }
+`;
+
+export default odemeyap;

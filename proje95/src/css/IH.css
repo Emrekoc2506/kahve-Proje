@@ -1,0 +1,35 @@
+.section {
+  padding: 2rem;
+  background-color: #f8f4f1;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
+  margin: 2rem auto;
+  font-family: "Segoe UI", sans-se rif;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #6f4e37;
+  text-align: center;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section li {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  color: #333;
+  display: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.section li::before {
+  content: "📍";
+  font-size: 1.2rem;
+}
